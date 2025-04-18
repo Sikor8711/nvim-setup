@@ -9,6 +9,10 @@ return {
       sync_install = false,
       highlight = { enable = true },
       indent = { enable = true },
+      highlight_definitions = {
+        enable = true,
+        clear_on_cursor_move = true,
+      }
     })
     vim.treesitter.language.register("html","mjml")
   end,
