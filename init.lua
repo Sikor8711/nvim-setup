@@ -2,5 +2,7 @@ require("config.lazy")
 require("lazy").setup("plugins")
 require("vim-options")
 require("generalkeymaps")
-vim.cmd.colorscheme("cyberdream")
+
+vim.o.termguicolors = true
+vim.cmd.colorscheme("molokai")
 
